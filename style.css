@@ -1,0 +1,15 @@
+h1 {
+    font-size: 5ch;
+    text-align: center;
+}
+
+li {
+    font-size: 2.5ch;
+    font-weight: bolder;
+    display: inline-block;
+    margin-right: 20ch;
+}
+
+img {
+    width: 300px;
+}
