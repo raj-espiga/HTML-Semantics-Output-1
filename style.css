@@ -1,15 +1,30 @@
-h1 {
-    font-size: 5ch;
-    text-align: center;
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:#f5f0f0;
 }
 
-li {
+header {
+    position: relative;
+    background:#000000;
+    color:#ffffff;
+    padding-top:30px;
+    min-height:70px;
+    background-image: url(images/bg.jpg);
+}
+
+header a {
+    color: #f5f0f0;
+}
+
+header li {
     font-size: 2.5ch;
     font-weight: bolder;
     display: inline-block;
-    margin-right: 20ch;
+    margin-right: 4.4435ch;
 }
 
 img {
+    position: relative;
     width: 300px;
+    padding-left: 10px;
 }
