@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #000;
@@ -12,7 +16,12 @@ header, footer {
     background-image: url(images/bg.jpg);
 }
 
-header a, footer a {
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a {
     color: #fff;
 }
 
@@ -37,7 +46,8 @@ header li {
 img {
     position: relative;
     width: 250px;
-    padding-left: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
 footer h4 {
